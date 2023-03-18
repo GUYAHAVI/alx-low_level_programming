@@ -12,11 +12,10 @@ int main(void)
 {
 	int x;
 
-	do {
-		putchar(x);
-		x++;
-		putchar('\n');
-	}
 	while (x < 10)
-	return (0);
+	{
+		putchar(x);
+		putchar('\n');
+		x++;
+	}
 }
