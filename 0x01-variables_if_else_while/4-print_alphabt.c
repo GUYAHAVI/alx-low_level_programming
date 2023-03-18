@@ -17,10 +17,9 @@ int main(void)
 
 	z[0] = 'q';
 	z[1] = 'e';
-	y = x - z[0] - z[1];
-
 	for (x = 'A' ; x <= 'Z' ; x++)
 	{
+		y = x - z[0] - z[1];
 		putchar(tolower(y));
 	}
 	putchar('\n');
