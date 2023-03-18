@@ -11,15 +11,11 @@
 
 int main(void)
 {
-	char x;
-	char q = 'q';
-	char e = 'e';
-
-	for (x = 'A' ; x <= 'Z' ; x++)
+	int x; for (x = 97 ; x <= 193 ; x++)
 	{
-		if (x != q && x != e)
+		if (x != 101 && x != 113)
 		{
-			putchar(tolower(x));
+			putchar(x);
 		}
 	}
 	putchar('\n');
