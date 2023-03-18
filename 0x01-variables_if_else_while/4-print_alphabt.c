@@ -13,8 +13,10 @@ int main(void)
 {
 	int x;
 	int y;
-	char z[2] = 'qe';
+	char z[2];
 
+	z[0] = 'q';
+	z[1] = 'e';
 	y = x - z[0] - z[1];
 
 	for (x = 'A' ; x <= 'Z' ; x++)
