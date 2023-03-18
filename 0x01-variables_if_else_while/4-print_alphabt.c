@@ -11,7 +11,9 @@
 
 int main(void)
 {
-	int x; for (x = 97 ; x <= 193 ; x++)
+	int x;
+
+	for (x = 97 ; x <= 193 ; x++)
 	{
 		if (x != 101 && x != 113)
 		{
