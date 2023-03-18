@@ -12,15 +12,13 @@
 int main(void)
 {
 	int x;
-	int y;
-	char z[2];
 
-	z[0] = 'q';
-	z[1] = 'e';
 	for (x = 'A' ; x <= 'Z' ; x++)
 	{
-		y = x - z[0] - z[1];
-		putchar(tolower(y));
+		if (x != q && x != e)
+		{
+			putchar(tolower(x));
+		}
 	}
 	putchar('\n');
 	return (0);
