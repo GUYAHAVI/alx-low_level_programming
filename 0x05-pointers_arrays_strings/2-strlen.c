@@ -4,12 +4,12 @@
 /**
 *_strlen- prints the length of a string
 *
-*@str: string whose length is needed
+*@s: string whose length is needed
 *
 *Return: length of a string
 *
 */
 int _strlen(char *s)
 {
-	return(strlen(s));
+	return (strlen(s));
 }
