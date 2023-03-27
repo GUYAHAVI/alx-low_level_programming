@@ -6,10 +6,8 @@
 *@str: string to be printed
 *
 */
-void _puts()
+void _puts(char *str);
 {
-	char *str[];
-
-	_putchar(*str++);
+	_putchar(str);
 	_putchar('\n');
 }
