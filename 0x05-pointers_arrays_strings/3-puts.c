@@ -6,11 +6,10 @@
 *@str: string to be printed
 *
 */
-void _puts(char *str)
+void _puts()
 {
-while (*str)
-_putchar(*str++);
+	char *str[];
 
-_putchar('\n');
+	_putchar(*str++);
+	_putchar('\n');
 }
-
