@@ -3,18 +3,19 @@
 /**
 *_memset -fills the memory with a constant bit
 *@s:pointer to memory
-*@b:number of bytes
-*@n:
+*@b:desired character to occpy memory
+*@n:number of bytes to be changed
 *Return: Returns a pointer to the memory area s
 *
 */
-char *_memset(char *s, char *b, unsigned int n)
+char *_memset(char *s, char b, unsigned int n)
 {
 	unsigned int i;
 
-	for (i = 0 ; i < n ; i++)
+	for (i = 0 ; n > 0 ; i++)
 	{
-		*(s + i) = *(b + i);
+		s[i] = b;
+		n--;
 	}
 	return (s);
 }
